@@ -1,0 +1,94 @@
+@media screen and (max-width: 376px) {
+
+    .conteiner{
+        position: relative;
+    }
+    .conteiner h1 {
+        /* display: none; */
+        position: relative;
+        right: 18px;
+        font-size: 27px;
+    }
+
+    .conteiner .p {
+        display: none;
+    }
+
+    .conteiner .content {
+        position: relative;
+    }
+
+
+    .conteiner .content .MacBook img {
+        width: 251px;
+        height: 213px;
+        flex-shrink: 0;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        /* background-image: url(../img/mbp14-spacegray-select-202110\ 1.png); */
+        background-size: 100% 100%;
+        position: absolute;
+        right: 594px;
+        top: 38px;
+    }
+
+    .conteiner .content .white p {
+        color: #0071E3;
+        font-family: Gilroy;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: absolute;
+        right: 505px;
+        top: 145px;
+    }
+
+    .conteiner .content .white .h1 {
+        color: #000;
+        text-align: start;
+        font-family: Gilroy;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: absolute;
+        right: 500px;
+        top: 181px;
+    }
+
+    .conteiner .content2 .button {
+        width: 140px;
+        height: 40px;
+    }
+
+    .conteiner .content2 .button2 {
+        width: 140px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #CFE7FF;
+        cursor: pointer;
+        transition: .3s all linear;
+    }
+
+    .conteiner .content2 .get {
+        display: flex;
+        align-items: self-start;
+        justify-content: center;
+        gap: 14px;
+        position: relative;
+        right: 12px;
+    }
+
+    .conteiner .content2 .operative {
+        position: relative;
+        right: 20px;
+    }
+}
+
+.conteiner .h11 {
+    font-size: 20px;
+    position: absolute;
+    right: 496px;
+    top: 111px;
+}

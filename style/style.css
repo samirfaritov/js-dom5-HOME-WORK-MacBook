@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    padding: 0 50px;
+    overflow: hidden;
+}
+
+.conteiner h1 {
+    color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.conteiner .p {
+    padding: 0 260px;
+}
+
+.conteiner .p p {
+    color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.conteiner .content {
+    width: 100%;
+    height: 265px;
+    border: 1px solid transparent;
+    padding: 0px 400px;
+    display: flex;
+    gap: 25px;
+}
+
+.conteiner .content .MacBook img{
+    width: 312px;
+height: 260px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+/* background-image: url("../img/mbp14-spacegray-select-202110\ 1.png"); */
+background-size: 100% 100%;
+}
+
+
+
+.conteiner .content .white {
+    width: 370px;
+    height: 310px;
+    border: 1px solid transparent;
+}
+
+.conteiner .content .white .h1 {
+    color: #000;
+text-align: start;
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.conteiner .content .white p {
+    color: #0071E3;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.conteiner .content .white h1:nth-child(5) {
+    color: #000;
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: start;
+}
+
+.conteiner .content2 {
+    width: 100%;
+    height: 315px;
+    border: 1px solid transparent;
+    display: grid;
+}
+
+.conteiner .content2 .get {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.conteiner .content2 .button {
+    width: 155px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #0071E3;
+transition: .3s all linear;
+
+}
+
+.conteiner .content2 .button p {
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+cursor: pointer;
+}
+
+.conteiner .content2 .button2 {
+    width: 155px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #CFE7FF;
+    cursor: pointer;
+    transition: .3s all linear;
+}
+/* 
+.conteiner .content2 .button2 .p2 {
+    color: #797979;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} */
+
+.conteiner .content2 p {
+    color: #797979;
+text-align: center;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.conteiner .content2 .operative {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.conteiner .content2 .operative .item {
+border: 2px solid #007FFF;
+width: 321px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 10px;
+/* border: 2px solid #CFE7FF; */
+cursor: pointer;
+transition: .4s all linear;
+}
+.conteiner .content2 .operative .item2 {
+/* border: 2px solid #007FFF; */
+width: 321px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #CFE7FF;
+cursor: pointer;
+transition: .4s all linear;
+
+}
+.conteiner .content2 .operative .item3 {
+/* border: 2px solid #007FFF; */
+width: 321px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #CFE7FF;
+cursor: pointer;
+transition: .4s all linear;
+
+}
+.conteiner .content2 .operative .item4 {
+/* border: 2px solid #007FFF; */
+width: 321px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #CFE7FF;
+cursor: pointer;
+transition: .4s all linear;
+}
