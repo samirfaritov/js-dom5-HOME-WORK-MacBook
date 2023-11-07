@@ -24,6 +24,19 @@ font-weight: 700;
 line-height: normal;
 }
 
+.conteiner .content .white .h11 {
+    position: relative;
+    top: 10px;
+    left: -12px;
+    color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
 .conteiner .p {
     padding: 0 260px;
 }
@@ -207,4 +220,13 @@ border-radius: 10px;
 border: 2px solid #CFE7FF;
 cursor: pointer;
 transition: .4s all linear;
+}
+
+.conteiner .w {
+    color: #0071E3;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
