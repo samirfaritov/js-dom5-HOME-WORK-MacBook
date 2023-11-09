@@ -130,6 +130,7 @@ flex-shrink: 0;
 border-radius: 10px;
 background: #0071E3;
 transition: .3s all linear;
+border: 1px solid #fff;
 
 }
 
@@ -152,6 +153,7 @@ cursor: pointer;
     background: #CFE7FF;
     cursor: pointer;
     transition: .3s all linear;
+border: 1px solid #fff;
 }
 /* 
 .conteiner .content2 .button2 .p2 {
